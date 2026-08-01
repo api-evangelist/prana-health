@@ -1,7 +1,15 @@
 aid: prana-health
 name: Prana Health
-description: Prana Health is a company surfaced as a portfolio company of y-combinator and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Prana (prana.health) is a research-driven body-enhancement company building a
+  system to engineer more muscle and less fat through three integrated steps:
+  performance testing to measure a user's biology, predictive body-composition
+  models that adapt training and nutrition protocols in real time, and
+  personalized enhancement medicine to accelerate results safely. The platform
+  centers on proprietary body-modeling technology, including its MUSCLE-1
+  hypertrophy prediction model, and is currently offered to users through a beta
+  program. As of this profile Prana publishes a consumer marketing and research
+  site only and exposes no public developer API, documentation, or SDKs.
 url: https://raw.githubusercontent.com/api-evangelist/prana-health/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,12 +17,41 @@ x-backed-by:
 - y-combinator
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://prana.health/images/logo_big.svg
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Health
+- Fitness
+- Longevity
+- Body Composition
+- Personalized Medicine
+- Consumer Health
+- Machine Learning
 apis: []
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
+common:
+- type: DomainSecurity
+  url: security/prana-health-domain-security.yml
+- type: Website
+  url: https://prana.health/
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
