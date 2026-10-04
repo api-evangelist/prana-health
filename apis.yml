@@ -51,7 +51,7 @@ tags:
 - Body Composition
 - Personalized Medicine
 - Consumer Health
-- Machine-Learning
+- Machine Learning
 tags_raw:
 - Company
 - Health
@@ -61,6 +61,7 @@ tags_raw:
 - Personalized Medicine
 - Consumer Health
 - Machine Learning
+- Machine-Learning
 apis: []
 x-enrichment:
   date: '2026-07-20'
